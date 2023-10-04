@@ -1,38 +1,16 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header{
+  z-index: 100001 !important;
 }
+body{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Roboto', sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.outLineBtn{
+  @apply px-4 py-2 bg-transparent border border-primary text-black rounded hover:bg-primary hover:text-secondary transition-all duration-300;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skillcard:nth-child(1){
+  border-bottom: 4px solid blue;
 }

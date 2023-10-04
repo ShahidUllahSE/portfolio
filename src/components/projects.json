@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Ahuse",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+    "image": "../assets/project-1.png"
+  },
+  {
+    "id": 2,
+    "name": "App Dashboard",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+    "image": "/src/assets/project-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Easy Rent",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+    "image": "/src/assets/project-3.png"
+  }
+]
