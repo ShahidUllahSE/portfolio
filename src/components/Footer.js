@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="bg-bgShade py-28 md:px-12 px-4">
+    <div className="bg-bgShade py-28 md:px-8 px-2">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 mb-20">
         <a href="/">
           <img src={images} alt="" />

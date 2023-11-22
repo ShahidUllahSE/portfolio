@@ -2,8 +2,6 @@
 
 import img from "./project-1.png";
 
-import { useEffect, useState } from "react";
-
 const Portfolio = () => {
   const projects = [
     {
@@ -22,9 +20,44 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      name: "Lates News",
+      name: "Lates News App",
       description:
         "Stay informed and inspired with our latest news website. Explore a diverse range of categories, including business, sports, entertainment, general, health, sceince, and technology, all in one place. Experience the world's latest events and trends at your fingertips.",
+      image: "/src/assets/project-3.png",
+    },
+    {
+      id: 4,
+      name: "Gym App",
+      description:
+        "Complete Design of UI of Gym app using HTML and CSS.",
+      image: "/src/assets/project-3.png",
+    },
+    {
+      id: 5,
+      name: "Text Utilites",
+      description:
+        "This is complete react.js app that convert your letters, words, sentences or paragraphs into Lower case , Upper Case , Sentence case and also count number of words and letters for you that you have given.",
+      image: "/src/assets/project-3.png",
+    },
+    {
+      id: 6,
+      name: "Quiz App",
+      description:
+        "Pure JavaScript Quiz App with different Questions of Different Categories.",
+      image: "/src/assets/project-3.png",
+    },
+    {
+      id: 7,
+      name: "Marks Calculator App",
+      description:
+        "This is a complete React.js Marks Calculator App which include addition of the marks of how much Subjects you want and also include Percentage , Average and as well Grade.",
+      image: "/src/assets/project-3.png",
+    },
+    {
+      id: 8,
+      name: "For More",
+      description:
+        "Visit My Github.",
       image: "/src/assets/project-3.png",
     },
   ];
@@ -39,10 +72,10 @@ const Portfolio = () => {
   return (
 
     
-    <div className="lg:mx-12 mx-4 my-32" id="Portfolio">
+    <div className="lg:mx-8 mx-2 my-10" id="Portfolio">
       <div className="mb-20 flex flex-col sm:flex-row md:items-center justify-between gap-5">
         <div>
-          <p className="text-xl text-headingcolor font-semibold mb-5">
+          <p className="text-xl text-headingcolor font-semibold mb-2">
             My projects
           </p>
           <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">
@@ -64,7 +97,7 @@ const Portfolio = () => {
               fill="white"
             />
           </svg>{" "}
-          Visit My Dribbble
+          Visit My Github
         </a>
       </div>
 
@@ -78,8 +111,8 @@ const Portfolio = () => {
                 {project.name}
               </h3>
               <p className="text-body mb-4">{project.description}</p>
-              <a href="/" className="underline underline-offset-8">
-                View In Dribbble{" "}
+              <a href="https://github.com/ShahidUllahSE" target="_blank" className="underline underline-offset-8">
+                View In Github{" "}
               </a>
             </div>
           </div>

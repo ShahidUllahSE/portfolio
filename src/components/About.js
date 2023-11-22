@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import ShahidUllah from "../Assets/ShahidUllah.png";
+import ShahidUllah from "../Assets/New folder/ShahidUllah.jpg";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
           <img src={ShahidUllah} alt="" className="w-full sm:w-11/12" />
         </div>
         <div className="sm:w-1/2">
-          <p className="text-xl text-headingcolor font-semibold mb-5">About</p>
+          <p className="text-xl text-headingcolor font-semibold mb-5"></p>
           <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">
             About Me
           </h2>

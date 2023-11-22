@@ -45,7 +45,7 @@ function Navbar() {
     <Link to ='Skills' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-pointer text-primary hover:text-green-600 text-xl'>Skills</Link>
     <Link to ='About' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-pointer text-primary hover:text-green-600 text-xl'>About</Link>
     <Link to ='Portfolio' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-pointer text-primary hover:text-green-600 text-xl'>Portfolio</Link>
-    <Link to ='Contacts' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-pointer text-primary hover:text-green-600 text-xl'>Contact</Link>
+    <Link to ='Contact' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-2 px-4 cursor-pointer text-primary hover:text-green-600 text-xl'>Contact</Link>
    
           </div>
 

@@ -1,4 +1,5 @@
 // import logo1 from '../components/logo1.jpg'
+import logo1 from '../Assets/New folder/logo1.jpg'
 const Skills = () => {
   const skills = [
     {
@@ -6,7 +7,7 @@ const Skills = () => {
       name: "HTML & CSS",
       description:
         "Proficient in HTML and CSS, I excel at creating clean and structured web layouts. My skills extend to CSS frameworks like Bootstrap and Tailwind CSS, allowing me to craft responsive and visually appealing websites.",
-      image: "../components/logo1.jpg",
+      image: {logo1},
     },
     {
       id: 2,
@@ -46,8 +47,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="lg:mx-12 mx-4 py-20" id="Skills">
-      <div className="mb-20">
+    <div className="lg:mx-1 mx-1 py-1" id="Skills">
+      <div className="mb-10">
         <p className="text-xl text-headingcolor font-semibold mb-5">
           My Skills
         </p>

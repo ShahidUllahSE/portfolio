@@ -1,4 +1,5 @@
-import ShahidUllah from "../Assets/ShahidUllah.png";
+// import ShahidUllah2 from "../Assets/ShahidUllah2.png";
+import ShahidUllah from '../Assets/New folder/ShahidUllah.jpg'
 
 const Home = () => {
   return (
@@ -9,10 +10,10 @@ const Home = () => {
         </div>
         {/* left side */}
         <div className="md:w-1/2 w-full mt-5">
-          <p className="text-xl text-headingcolor font-semibold mb-5">
+          <p className="text-4xl text-headingcolor font-semibold mb-5">
             Shahid Ullah - Frontend Web Developer
           </p>
-          <h1 className="md:text-3xl text-4xl font-bold text-headingcolor leading-snug md:leading-[76px]  mb-5">
+          <h1 className="md:text-3xl text-xl font-bold text-headingcolor leading-snug md:leading-[76px]  mb-5">
             I create{" "}
             <span className="text-primary">User Centric Web Experiences</span>{" "}
             And Deliver Engaging Digtal Solutions
@@ -23,10 +24,7 @@ const Home = () => {
             Bootstrap, Tailwind CSS, and JavaScript and mainly <strong>React.js</strong>  Let's collaborate and build something remarkable
             together. Your next web project is just a click away!
           </p>
-          <button className="lg:block hidden outLineBtn hover:-translate-y-2">
-            {" "}
-            Get In Touch{" "}
-          </button>
+       
         </div>
         {/* rigth side */}
       </div>
